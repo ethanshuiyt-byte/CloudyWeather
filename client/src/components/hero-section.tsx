@@ -1,16 +1,31 @@
 import { Button } from "@/components/ui/button";
 import PhoneMockup from "@/components/phone-mockup";
 import { motion } from "framer-motion";
+import videoBackground from "@assets/20250914_2027_Futuristic Gradient Sunglasses_remix_01k55pk8s2fdssndh4n5jd45er_1758159213597.mov";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen hero-gradient overflow-hidden pt-20" data-testid="section-hero">
+    <section className="relative min-h-screen overflow-hidden pt-20" data-testid="section-hero">
+      {/* Video Background */}
+      <video 
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+        data-testid="hero-video-background"
+      >
+        <source src={videoBackground} type="video/quicktime" />
+      </video>
+      
+      {/* Overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/60 via-secondary/50 to-primary/70 z-10 pointer-events-none"></div>
       {/* 3D Geometric Shapes */}
       <div className="geometric-shape w-52 h-52 bg-gradient-to-br from-white/30 to-white/10 top-[20%] right-[10%] animate-float" />
       <div className="geometric-shape w-32 h-32 bg-gradient-to-br from-white/20 to-white/5 top-[60%] right-[20%] animate-float-delayed" />
       <div className="geometric-shape w-20 h-20 bg-gradient-to-br from-white/25 to-white/8 top-[40%] right-[40%] animate-float-delayed-2" />
       
-      <div className="container mx-auto px-4 py-20 relative z-10">
+      <div className="container mx-auto px-4 py-20 relative z-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           <motion.div 
             className="text-white space-y-8"

@@ -16,7 +16,7 @@ export default function TestimonialsSection() {
       avatar: "LA",
       avatarColor: "bg-blue-500",
       rating: 5,
-      text: "Awesome app very user friendly. Would highly recommend Jeton to my friends."
+      text: "Awesome app very user friendly. Would highly recommend AirFly to my friends."
     },
     {
       id: "kr",
@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
       avatar: "KR",
       avatarColor: "bg-orange-500",
       rating: 5,
-      text: "The best payment solution for German customers. I've been a Jeton user for a few years! The support was always great and I'm always able to make my payments to the websites I want with no problem."
+      text: "The best payment solution for German customers. I've been an AirFly user for a few years! The support was always great and I'm always able to make my payments to the websites I want with no problem."
     },
     {
       id: "dp",
@@ -32,7 +32,7 @@ export default function TestimonialsSection() {
       avatar: "DP",
       avatarColor: "bg-purple-500",
       rating: 5,
-      text: "Easy and Fast. Great app for fast and easy transfers. I have been using Jeton for a while now without any problem. I have recently started using their Jeton Card for my everyday purchases too."
+      text: "Easy and Fast. Great app for fast and easy transfers. I have been using AirFly for a while now without any problem. I have recently started using their AirFly Card for my everyday purchases too."
     }
   ];
 

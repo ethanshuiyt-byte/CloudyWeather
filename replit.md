@@ -1,6 +1,6 @@
 # Overview
 
-This is a full-stack financial services application built with React and Express.js, featuring a modern fintech UI for "Jeton" - a digital wallet and payment platform. The application provides a landing page showcasing financial services including currency exchange, digital wallet functionality, and payment card features. The architecture follows a monorepo structure with a React frontend, Express.js backend, and PostgreSQL database integration using Drizzle ORM.
+This is a full-stack financial services application built with React and Express.js, featuring a modern fintech UI for "AirFly" - a digital wallet and payment platform. The application provides a landing page showcasing financial services including currency exchange, digital wallet functionality, and payment card features. The architecture follows a monorepo structure with a React frontend, Express.js backend, and PostgreSQL database integration using Drizzle ORM.
 
 # User Preferences
 

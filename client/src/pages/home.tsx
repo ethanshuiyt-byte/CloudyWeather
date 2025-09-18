@@ -2,7 +2,7 @@ import Navigation from "@/components/navigation";
 import HeroSection from "@/components/hero-section";
 import FeaturesSection from "@/components/features-section";
 import AllInOneSection from "@/components/all-in-one-section";
-import JetonCardSection from "@/components/jeton-card-section";
+import AirFlyCardSection from "@/components/jeton-card-section";
 import CurrencyExchangeSection from "@/components/currency-exchange-section";
 import TestimonialsSection from "@/components/testimonials-section";
 import StatisticsSection from "@/components/statistics-section";
@@ -16,7 +16,7 @@ export default function Home() {
       <HeroSection />
       <FeaturesSection />
       <AllInOneSection />
-      <JetonCardSection />
+      <AirFlyCardSection />
       <CurrencyExchangeSection />
       <TestimonialsSection />
       <StatisticsSection />

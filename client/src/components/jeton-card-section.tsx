@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-export default function JetonCardSection() {
+export default function AirFlyCardSection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-muted to-white" data-testid="section-jeton-card">
+    <section className="py-20 bg-gradient-to-br from-muted to-white" data-testid="section-airfly-card">
       <div className="container mx-auto px-4 text-center">
         <motion.div 
           className="inline-block bg-primary/10 text-primary px-6 py-2 rounded-full text-sm font-medium mb-8"
@@ -11,9 +11,9 @@ export default function JetonCardSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          data-testid="badge-jeton-card"
+          data-testid="badge-airfly-card"
         >
-          Jeton Card
+          AirFly Card
         </motion.div>
         
         <motion.h2 
@@ -24,7 +24,7 @@ export default function JetonCardSection() {
           viewport={{ once: true }}
           data-testid="text-card-features"
         >
-          Jeton Card: Your Go-<br />
+          AirFly Card: Your Go-<br />
           To for Every Purchase
         </motion.h2>
         
@@ -41,7 +41,7 @@ export default function JetonCardSection() {
             <div className="absolute inset-4 bg-gradient-to-br from-secondary via-primary to-secondary rounded-3xl transform -rotate-1 opacity-60"></div>
             <div className="absolute inset-8 bg-gradient-to-br from-primary to-secondary rounded-3xl flex items-center justify-center">
               <div className="text-white text-center">
-                <div className="text-3xl font-bold mb-4">Jeton Card</div>
+                <div className="text-3xl font-bold mb-4">AirFly Card</div>
                 <div className="text-white/80">Your Go-To for Every Purchase</div>
               </div>
             </div>

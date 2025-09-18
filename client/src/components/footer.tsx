@@ -9,7 +9,7 @@ export default function Footer() {
     },
     {
       title: "Discover",
-      links: ["Jeton Card", "Fees"]
+      links: ["AirFly Card", "Fees"]
     },
     {
       title: "Company",
